@@ -25,6 +25,17 @@ page 74121 "BingMaps CustomerMap"
                     UpdateMap();
                 end;
             }
+
+            usercontrol(Map2; "Microsoft.Dynamics.Nav.Client.WebPageViewer")
+            {
+                ApplicationArea = All;
+
+                trigger ControlAddInReady(callbackUrl: Text)
+                begin
+                    mapIsReady := true;
+                    UpdateMap();
+                end;
+            }
         }
     }
 
