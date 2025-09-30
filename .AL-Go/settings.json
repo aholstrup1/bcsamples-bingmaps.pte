@@ -8,5 +8,6 @@
   "testFolders": [
     "BingMaps.Test"
   ],
-  "RepoVersion": "25.0"
+  "RepoVersion": "25.0",
+  "trackALAlertsInGitHub": true
 }
