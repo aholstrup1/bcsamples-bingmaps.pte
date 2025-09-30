@@ -77,8 +77,8 @@ jobs:
         env:
           trackALAlertsInGithub: ${{ env.trackALAlertsInGithub }}
         run: |
-          Write-Host "trackALAlertsInGithub environment variable: '$($env:trackALAlertsInGithub)'"
-          Add-Content -Encoding UTF8 -Path $env:GITHUB_OUTPUT -Value "trackALAlertsInGithub=$($env:trackALAlertsInGithub)"
+          Write-Host "Track AL Code Analysis Alerts in GitHub: $env:trackALAlertsInGithub"
+          Add-Content -Encoding UTF8 -Path $env:GITHUB_OUTPUT -Value "trackALAlertsInGithub=$env:trackALAlertsInGitHub"
 
       - name: Read submodules token
         id: ReadSubmodulesToken
