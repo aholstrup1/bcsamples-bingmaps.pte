@@ -1,15 +1,17 @@
 {
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/55f06533726d052e7603277236f2bcbcd67fa6cf/Actions/.Modules/settings.schema.json",
+  "$schema": "https://raw.githubusercontent.com/aholstrup1/AL-Go/aholstrup/codeanalysis/Actions/.Modules/settings.schema.json",
   "type": "PTE",
-  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@preview",
+  "templateUrl": "https://github.com/aholstrup1/AL-Go@aholstrup/codeanalysis",
   "conditionalSettings": [
     {
-        "workflows": [ "Update AL-Go System Files" ],
-        "settings": {
-            "workflowSchedule": {
-                "cron": "0 0 * * *"
-            }
+      "workflows": [
+        "Update AL-Go System Files"
+      ],
+      "settings": {
+        "workflowSchedule": {
+          "cron": "0 0 * * *"
         }
+      }
     }
   ],
   "runs-on": "ubuntu-latest",
@@ -23,6 +25,6 @@
   },
   "doNotSignApps": true,
   "keyVaultCodesignCertificateName": "FreddyKristiansen",
-  "templateSha": "cb1099b0e43feda0a5b7a10e106fdf936002898e",
+  "templateSha": "ac1d54110c368912aab6b7a5551d0b62c9fb3c78",
   "trackALAlertsInGitHub": true
 }
