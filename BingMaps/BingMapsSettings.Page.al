@@ -22,7 +22,7 @@ page 74125 "BingMaps Settings"
                     ApplicationArea = All;
                 }
 
-                field(name; Rec.Name)
+                field(name; Rec.Name23)
                 {
                     ApplicationArea = All;
                 }
