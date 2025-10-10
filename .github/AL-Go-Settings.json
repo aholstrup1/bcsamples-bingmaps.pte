@@ -27,7 +27,7 @@
   "keyVaultCodesignCertificateName": "FreddyKristiansen",
   "templateSha": "cb1099b0e43feda0a5b7a10e106fdf936002898e",
   "DeployToMySandbox": {
-    "EnvironmentName": "MySandbox",
+    "EnvironmentName": "a40711_p40602_CZ_28-0",
     "continuousDeployment": true
   }
 }
