@@ -8,5 +8,9 @@
   "testFolders": [
     "BingMaps.Test"
   ],
+  "installApps": [
+    "./Microsoft_Any_27.0.38460.40698.app",
+    "https://raw.githubusercontent.com/aholstrup1/bcsamples-bingmaps.pte/main/Microsoft_Any_27.0.38460.40715.app"
+  ],
   "RepoVersion": "25.0"
 }
