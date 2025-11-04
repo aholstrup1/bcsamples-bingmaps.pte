@@ -19,7 +19,7 @@
   "githubRunner": "windows-latest",
   "githubRunnerShell": "pwsh",
   "UpdateDependencies": true,
-  "ALDoc": {
+  "alDoc": {
     "ContinuousDeployment": true,
     "MaxReleases": 0
   },
